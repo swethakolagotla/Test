@@ -1,0 +1,66 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+form .formInpCon {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+form .formInpCon label {
+  color: gray;
+}
+
+form .formInpCon .inpFldIWithIconCon {
+  border: 2px solid #dedede;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  border-radius: 0.2rem;
+  padding: 0.2rem 0.6rem;
+  position: relative;
+}
+
+form .formInpCon .inpFldIWithIconCon a.forgotPassLink {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top:7px;
+  text-decoration: none;
+  color: #cbcbcb;
+}
+
+form .formInpCon .inpFldIWithIconCon a.forgotPassLink:hover {
+  color: #959595;
+}
+
+form .formInpCon .inpFldIWithIconCon a.forgotPassLink:active {
+  transform: scale(0.9);
+}
+
+form .formInpCon .inpFldIWithIconCon input {
+  outline: none;
+  border-radius: 0.2rem;
+  border: none;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  padding: 0 0.5rem;
+}
+
+form .formInpCon .inpFldIWithIconCon span {
+  color: #dedede;
+  display: flex;
+}
+
+form .formInpCon .inpFldIWithIconCon input#inpFld__Password ~ svg {
+  color: #dedede;
+}

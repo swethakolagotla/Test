@@ -1,0 +1,59 @@
+.main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    background-color: lightseagreen;
+}
+
+.card{
+    width: 500px;
+    height:400px;
+    /* background-color: aqua; */
+    
+}
+.editsection{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.editsection>div:last-child{
+    margin-left:50px;
+}
+.editsection2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card h2{
+    padding: 10px;
+}
+.div{
+    border-top: none;
+    border: solid 0.8px rgb(178, 178, 178);
+}
+.form{
+    /* display:flex ; */
+    /* align-items: center; */
+    justify-content: center;
+    padding: 15px 0px;
+    margin-left: 20px;
+}
+
+.main div label{
+    margin-bottom:20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.buttonDiv{
+display: flex !important;
+width: 100%;
+align-items: center;
+margin-left:30px;
+margin-top:30px;
+gap: 50px;
+
+}

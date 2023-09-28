@@ -1,0 +1,48 @@
+.welcomePage {
+  min-height: 100vh;
+  background: rgb(1, 77, 175);
+  background: url("https://png.pngtree.com/thumb_back/fh260/background/20210224/pngtree-blue-abstract-background-business-image_564246.jpg");
+background-size: cover;
+}
+
+.heading{
+  color:aliceblue;
+  padding:28px 0 0 524px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.welcomePage > nav {
+  background-color: #6cd2f1;
+  width: 360px;
+  display: flex;
+  margin-left:493px;
+  margin-top:240px;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 2rem;
+  height: 10vh;
+}
+
+.welcomePage > nav > a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #0a157c;
+}
+
+.welcomePage > nav > a:hover {
+  text-decoration: underline;
+  color: #3a333b;
+  transform: scale(1.1);
+}
+
+.welcomePage > nav > a:active {
+  transform: scale(0.9);
+}
+
+.welcomePage hr.divider {
+  height: 50%;
+  width: 0.2rem;
+  background-color: white;
+  border: none;
+}

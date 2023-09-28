@@ -1,0 +1,107 @@
+.loginPage {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: -webkit-linear-gradient(
+    180deg,
+    rgb(3 51 112) 50%,
+    rgba(0, 53, 95, 1) 100%
+  );
+  flex-direction: column;
+}
+
+.loginPage>.sectionContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background: #f8f8f8;
+  position: relative;
+}
+
+.loginPage>.sectionContent > * {
+  height: 100%;
+}
+
+.loginPage>.sectionContent>.infoLeft {
+  background-color: #378ff9;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 3rem 0 3rem;
+}
+
+.loginPage>.sectionContent>.infoLeft>.headingContent {
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.loginPage>.sectionContent>.infoLeft>.headingContent >h2 {
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.loginPage>.sectionContent>.infoLeft>.highlightsContent {
+  display: flex;
+  flex-direction: column;
+  color: #f0f0f0;
+  margin-top: 2rem;
+  gap: 1.1rem;
+}
+
+.loginPage>.sectionContent>.infoLeft>.highlightsContent>span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.loginPage>.sectionContent>.infoLeft>.highlightsContent >span >svg {
+  background: white;
+  color: black;
+  border-radius: 2rem;
+  padding: 0.2rem;
+  font-size: 1.1rem;
+}
+
+.loginPage>.sectionContent>.formData {
+  display: flex;
+  padding: 3rem;
+  width: 29rem;
+}
+
+.loginPage>.sectionContent>.dontHaveAccount {
+  align-self: flex-end;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  height: auto;
+  color: #f0f0f0;
+  margin-top: 0.5rem;
+}
+
+.loginPage >.sectionContent >.dontHaveAccount >a {
+  color: #378ff9;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 780px) {
+  .loginPage .sectionContent {
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .loginPage .sectionContent .infoLeft {
+    width: 100%;
+  }
+  .loginPage .sectionContent .formData {
+    width: 100%;
+  }
+  .loginPage .sectionContent .dontHaveAccount {
+    top: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .loginPage .sectionContent .dontHaveAccount a {
+    color: white;
+  }
+}
