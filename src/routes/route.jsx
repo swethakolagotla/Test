@@ -1,9 +1,8 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 // @ts-nocheck
 
-import Login from "../Pages/Login/index";
-
-import Welcome from "../Pages/Welcome";
+import Login from "../Pages/LoginPage/index";
+import Welcome from "../Pages/WelcomePage";
 import NotFound from "../Pages/NotFound";
 import Dashboard from "../Pages/Dashboard/";
 import ProtectedRoute from "../Components/ProtectedRoute.jsx";
